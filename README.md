@@ -57,4 +57,4 @@ npm install -g serve
 ```
 Then, navigate to the generated report directory and start the server:
 
-Visit http://localhost:<port> in your browser to view the report (<port> would be mentioned in the logs)
+Visit http://localhost:port in your browser to view the report (port would be mentioned in the logs)
