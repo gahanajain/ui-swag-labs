@@ -73,3 +73,17 @@ The project directory structure is organized as follows:
 - `test/pageobjects`: Page object files contain selectors and methods for interacting with web pages.
 - `test/constants`: JSON file containing constants used across the test suite.
 - `wdio.conf.ts`: WebdriverIO configuration file.
+
+## Dependencies
+
+The project uses the following npm packages:
+
+- @wdio/cli
+- @wdio/local-runner
+- @wdio/jasmine-framework
+- @wdio/allure-reporter
+- typescript
+- ts-node
+- @types/node
+- expect-webdriverio
+- allure-commandline (should be installed globally or added to your project locally)
