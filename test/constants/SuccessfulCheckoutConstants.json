@@ -1,0 +1,16 @@
+{
+    "inventoryPage": "inventory pageeeee",
+    "cartPage": "cart page",
+    "completeHeader": "Thank you for your order!",
+    "websiteHeader": "Swag Labs",
+    "cartPageTitle": "Your Cart",
+    "checkoutTitle": "Checkout: Overview",
+    "checkoutCompleteTitle": "Checkout: Complete!",
+    "inventoryPageTitle": "Products",
+    "infoPageTitle": "Checkout: Your Information",
+    "firstName": "Harry",
+    "lastName": "Potter",
+    "zipCode": "123456",
+    "paymentInfo": "SauceCard #31337",
+    "shippingInfo": "Free Pony Express Delivery!"
+}
