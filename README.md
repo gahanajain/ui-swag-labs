@@ -1,7 +1,3 @@
-# Sauce Demo Web Automation Project
-
-This repository contains automated tests for the Sauce Demo e-commerce web application.
-
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
@@ -9,15 +5,15 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
 - Node.js (v12 or higher)
-- npm (usually comes with Node.js)
+- npm
 
 ### Installing
 
 First, clone the repository and navigate to the project directory:
 
 ```sh
-git clone https://github.com/YOUR_GITHUB_USERNAME/sauce-demo-automation.git
-cd sauce-demo-automation
+git clone https://github.com/gahanajain/ui-swag-labs.git
+cd ui-swag-labs
 ```
 
 ### Then install the dependencies:
@@ -58,3 +54,22 @@ npm install -g serve
 Then, navigate to the generated report directory and start the server:
 
 Visit http://localhost:port in your browser to view the report (port would be mentioned in the logs)
+
+## Test Scenarios
+
+The test suite covers the following scenarios:
+
+- User authentication with valid credentials.
+- Adding a specified number of products to the shopping cart.
+- Validation of product details in the shopping cart.
+- Entering personal information for checkout.
+- Verifying the correctness of the checkout subtotal.
+- Completing the checkout process and logging out.
+
+## Project Structure
+
+The project directory structure is organized as follows:
+- `test/specs`: Test specification files.
+- `test/pageobjects`: Page object files contain selectors and methods for interacting with web pages.
+- `test/constants`: JSON file containing constants used across the test suite.
+- `wdio.conf.ts`: WebdriverIO configuration file.
