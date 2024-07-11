@@ -87,3 +87,8 @@ The project uses the following npm packages:
 - @types/node
 - expect-webdriverio
 - allure-commandline (should be installed globally or added to your project locally)
+
+## Demo Video
+
+https://github.com/gahanajain/ui-swag-labs/assets/70436638/f8b531e7-381b-477f-8918-481c2c942ebd
+
